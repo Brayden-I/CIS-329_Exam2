@@ -63,6 +63,8 @@ $customerresults = $stmt->fetchAll(PDO::FETCH_ASSOC);
     </table>
     
 </body>
+<footer>
+    <?php require 'components/footer.php' ?>
+</footer>
 
-<?php require 'components/footer.php' ?>
 </html>
